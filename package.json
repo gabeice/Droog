@@ -1,0 +1,23 @@
+{
+  "name": "Droog",
+  "version": "1.0.0",
+  "description": "### Description",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tacitblue/Droog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tacitblue/Droog/issues"
+  },
+  "homepage": "https://github.com/tacitblue/Droog#readme",
+  "dependencies": {
+    "waveform-data": "^2.0.1"
+  }
+}

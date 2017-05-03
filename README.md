@@ -12,4 +12,4 @@ The oscilloscope can be either static (shown all at once, with a progress bar sh
 
 ### Architecture
 
-Audio metadata will be extracted using the audio-metadata npm library.
+Audio metadata will be extracted using the `waveform-data.js` npm library.
