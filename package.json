@@ -2,7 +2,7 @@
   "name": "Droog",
   "version": "1.0.0",
   "description": "### Description",
-  "main": "index.js",
+  "main": "droog.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
