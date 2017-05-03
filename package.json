@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/tacitblue/Droog/issues"
   },
-  "homepage": "https://github.com/tacitblue/Droog#readme"
+  "homepage": "https://github.com/tacitblue/Droog#readme",
+  "dependencies": {
+    "d3": "^4.8.0",
+    "webpack": "^2.4.1"
+  }
 }
