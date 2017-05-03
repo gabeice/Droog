@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/tacitblue/Droog/issues"
   },
-  "homepage": "https://github.com/tacitblue/Droog#readme",
-  "dependencies": {
-    "waveform-data": "^2.0.1"
-  }
+  "homepage": "https://github.com/tacitblue/Droog#readme"
 }
