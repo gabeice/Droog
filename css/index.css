@@ -1,0 +1,69 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Futura";
+}
+
+p {
+  margin: 5px;
+}
+
+#main {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: 500px;
+}
+
+#main div {
+  border: 1px solid black;
+}
+
+#display {
+  width: 60%;
+}
+
+#controls {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#customizer {
+  width: 20%;
+}
+
+#song-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#play-controls {
+  display: flex;
+  flex-direction: row;
+}
+
+#play-controls div {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#play-controls i {
+  font-size: 3em;
+  margin: 20px;
+  cursor: pointer;
+}
+
+#play-controls i:hover {
+  opacity: 0.7;
+}
+
+#play-controls i:active {
+  font-size: 2.5em;
+}

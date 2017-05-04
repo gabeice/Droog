@@ -2,12 +2,41 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <script type="text/javascript" src="./lib/droog.js"></script>
+    <script type="text/javascript" src="./lib/bundle.js"></script>
+    <link rel="stylesheet" href="./css/index.css">
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
     <title>Droog</title>
   </head>
   <body>
-    <h1>Miles</h1>
+    <h1>Droog</h1>
+
+    <section id="main">
+      <div id="controls">
+        <div id="song-info">
+          <h3>Current Song:</h3>
+          <p id="song-title"></p>
+          <p id="song-artist"></p>
+        </div>
+
+        <div id="play-controls">
+          <div>
+            <i class="fa fa-play" aria-hidden="true"></i>
+          </div>
+
+          <div>
+            <i class="fa fa-pause purple" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+      <div id="display">
+
+      </div>
+      <div id="customizer">
+
+      </div>
+    </section>
+
     <audio id="audio" src="./assets/Bitches_Brew.mp3" controls/>
   </body>
 </html>
