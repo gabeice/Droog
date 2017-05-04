@@ -5,6 +5,10 @@ body {
   font-family: "Futura";
 }
 
+h1 {
+  font-size: 40px;
+}
+
 p {
   margin: 5px;
 }
@@ -84,7 +88,33 @@ p {
   cursor: inherit;
 }
 
-#display {
+#customizer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.color-picker {
+  width: 120px;
+  height: 120px;
+  margin: 25px 0px;
+  border-radius: 50%;
+}
+
+/*#color-top {
+  border-bottom-right-radius: 150px;
+  border-bottom-left-radius: 150px;
+}
+
+#color-bottom {
+  border-top-right-radius: 150px;
+  border-top-left-radius: 150px;
+}*/
+
+/*CIRCLE*/
+
+/*#display {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -93,4 +123,31 @@ p {
 
 #test-bar {
   border-radius: 50%;
+  border: 1px solid black;
+}*/
+
+/*CIRCLE*/
+
+/*OSC*/
+
+#display {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
+
+#test-bar {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#test-bar div {
+  border: none;
+  background: linear-gradient(0deg, lightseagreen, turquoise);
+  width: 2px;
+}
+
+/*OSC*/
