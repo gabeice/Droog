@@ -83,3 +83,14 @@ p {
 #upload-button label {
   cursor: inherit;
 }
+
+#display {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#test-bar {
+  border-radius: 50%;
+}
