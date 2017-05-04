@@ -67,3 +67,18 @@ p {
 #play-controls i:active {
   font-size: 2.5em;
 }
+
+#song-file {
+  display: none;
+}
+
+#upload-button {
+  width: 60%;
+  align-self: center;
+  padding: 15px;
+  cursor: pointer;
+}
+
+#upload-button label {
+  cursor: inherit;
+}
