@@ -102,15 +102,13 @@ p {
   border-radius: 50%;
 }
 
-/*#color-top {
-  border-bottom-right-radius: 150px;
-  border-bottom-left-radius: 150px;
+#form-select p {
+  cursor: pointer;
 }
 
-#color-bottom {
-  border-top-right-radius: 150px;
-  border-top-left-radius: 150px;
-}*/
+.selected {
+  color: red;
+}
 
 /*CIRCLE*/
 
