@@ -110,10 +110,14 @@ p {
   color: red;
 }
 
-#little-bar {
+.little-bar {
   border-radius: 50%;
-  background-color: white;
-  box-shadow: inset 0 0 1em turquoise, 0 0 3em white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid rebeccapurple;
+  /*background-color: white;
+  box-shadow: inset 0 0 1em turquoise, 0 0 3em white;*/
 }
 
 #test-bar div {
