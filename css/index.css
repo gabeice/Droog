@@ -27,6 +27,13 @@ ul {
   flex-direction: row;
   width: 80%;
   height: 500px;
+  --bottom-red: 102;
+  --bottom-green: 51;
+  --bottom-blue: 153;
+
+  --top-red: 64;
+  --top-green: 224;
+  --top-blue: 208;
 }
 
 #main div {
@@ -130,15 +137,15 @@ ul {
   background-color: black;
 }
 
-.red-selector {
+.red {
   background: linear-gradient(to right, red, white);
 }
 
-.green-selector {
+.green {
   background: linear-gradient(to right, green, white);
 }
 
-.blue-selector {
+.blue {
   background: linear-gradient(to right, blue, white);
 }
 
@@ -155,12 +162,12 @@ ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: 1px solid rebeccapurple;
+  border: 1px solid rgb(var(--bottom-red), var(--bottom-green), var(--bottom-blue));
 }
 
 #outer-bar div {
   border: none;
-  background: linear-gradient(0deg, rebeccapurple, turquoise);
+  background: linear-gradient(0deg, rgb(var(--bottom-red), var(--bottom-green), var(--bottom-blue)), rgb(var(--top-red), var(--top-green), var(--top-blue)));
   width: 2px;
 }
 
