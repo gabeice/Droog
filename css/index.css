@@ -3,6 +3,8 @@ body {
   flex-direction: column;
   align-items: center;
   font-family: "Futura";
+  margin: 0px;
+  background-color: lightgray;
 }
 
 h1 {
@@ -27,6 +29,8 @@ ul {
   flex-direction: row;
   width: 80%;
   height: 500px;
+  /*border: 1px solid black;*/
+
   --bottom-red: 102;
   --bottom-green: 51;
   --bottom-blue: 153;
@@ -34,10 +38,6 @@ ul {
   --top-red: 64;
   --top-green: 224;
   --top-blue: 208;
-}
-
-#main div {
-  border: 1px solid black;
 }
 
 #display {
@@ -49,6 +49,7 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: slategray;
 }
 
 #customizer {
@@ -59,19 +60,25 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-self: center;
   height: 30%;
+  border-bottom: 1px solid black;
 }
 
 #play-controls {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  width: 65%;
+  align-self: center;
+  border-top: 1px solid black;
 }
 
 #play-controls div {
   width: 50%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
@@ -89,6 +96,14 @@ ul {
   font-size: 2.5em;
 }
 
+/*.fa-play {
+  margin-right: 0px;
+}
+
+.fa-pause {
+  margin-left: 0px;
+}*/
+
 #song-file {
   display: none;
 }
@@ -98,6 +113,8 @@ ul {
   align-self: center;
   padding: 15px;
   cursor: pointer;
+  border: 1px solid black;
+  background-color: white;
 }
 
 #upload-button label {
@@ -109,6 +126,7 @@ ul {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  background-color: slategray;
 }
 
 .color-picker {
@@ -147,6 +165,18 @@ ul {
 
 .blue {
   background: linear-gradient(to right, blue, white);
+}
+
+#top-sample {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(var(--top-red), var(--top-green), var(--top-blue));
+}
+
+#bottom-sample {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(var(--bottom-red), var(--bottom-green), var(--bottom-blue));
 }
 
 #form-select p {
