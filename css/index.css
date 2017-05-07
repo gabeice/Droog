@@ -214,3 +214,9 @@ ul {
   justify-content: flex-end;
   align-items: flex-end;
 }
+
+#microphone {
+  align-self: center;
+  font-size: 1.5em;
+  cursor: pointer;
+}
