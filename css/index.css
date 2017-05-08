@@ -9,6 +9,7 @@ body {
 
 h1 {
   font-size: 48px;
+  margin-bottom: 20px;
 }
 
 p {
@@ -24,6 +25,35 @@ ul {
   padding: 0px;
 }
 
+@keyframes widen {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 30%;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+#underline {
+  height: 1px;
+  background-color: black;
+  width: 30%;
+  margin-bottom: 30px;
+  animation-duration: 4s;
+  animation-name: widen;
+}
+
 #main {
   display: flex;
   flex-direction: row;
@@ -37,6 +67,9 @@ ul {
   --top-red: 64;
   --top-green: 224;
   --top-blue: 208;
+
+  animation-name: fadein;
+  animation-duration: 3s;
 }
 
 #display {
