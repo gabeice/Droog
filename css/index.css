@@ -29,7 +29,6 @@ ul {
   flex-direction: row;
   width: 80%;
   height: 500px;
-  /*border: 1px solid black;*/
 
   --bottom-red: 102;
   --bottom-green: 51;
@@ -219,4 +218,8 @@ ul {
   align-self: center;
   font-size: 1.5em;
   cursor: pointer;
+}
+
+#microphone:hover {
+  opacity: 0.7;
 }
