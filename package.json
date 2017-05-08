@@ -4,8 +4,7 @@
   "description": "### Description",
   "main": "droog.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "webpack"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
     "node": "4.1.1",
