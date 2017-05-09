@@ -40,14 +40,26 @@ ul {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  height: 50%;
-  width: 25%;
+  height: 70%;
+  width: 35%;
   flex-direction: column;
-  justify-content: space-around;
+}
+
+.modal h2 {
+  align-self: center;
+  margin-top: 50px;
+  border-bottom: 1px solid gray;
 }
 
 .modal p {
-  margin: 30px;
+  margin: 20px 30px;
+}
+
+.modal a {
+  text-decoration: none;
+  align-self: center;
+  font-size: 12px;
+  margin-top: 20px;
 }
 
 @keyframes widen {
