@@ -1,6 +1,7 @@
 body {
   margin: 0px;
   font-family: "Futura";
+  background-color: lightgray;
 }
 
 #body-content {
@@ -8,7 +9,6 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 0px;
-  background-color: lightgray;
 }
 
 h1 {
@@ -304,4 +304,8 @@ ul {
   text-decoration: none;
   margin: 10px;
   color: gray;
+}
+
+#masthead {
+  cursor: pointer;
 }
